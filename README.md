@@ -23,3 +23,6 @@ A vim-airline theme is included. Add `let g:airline_theme='potato'` to your `.vi
 
 The colours for iTerm2 are provided, and one day I'll do up some Xdefaults too.
 
+## TODO
+
+- If you use `git commit -v`, the diff is ugly.
