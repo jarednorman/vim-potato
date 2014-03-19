@@ -21,7 +21,7 @@ A vim-airline theme is included. Add `let g:airline_theme='potato'` to your `.vi
 
 ## Terminal Colours
 
-The colours for iTerm2 are provided, and one day I'll do up some Xdefaults too.
+The colours for iTerm2 are provided, as well as an alternate colourscheme, and one day I'll do up some Xdefaults too.
 
 ## TODO
 
