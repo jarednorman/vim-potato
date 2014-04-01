@@ -10,16 +10,16 @@ let g:colors_name="potato"
 
 hi Normal ctermfg=7 cterm=none
 hi Comment ctermfg=7 cterm=bold
-hi Constant ctermfg=3 cterm=none
+hi Constant ctermfg=4 cterm=none
 hi Special ctermfg=4 cterm=bold
-hi Identifier ctermfg=4 cterm=none
-hi Statement ctermfg=2 cterm=none
-hi PreProc ctermfg=2 cterm=none
+hi Identifier ctermfg=3 cterm=none
+hi Statement ctermfg=6 cterm=none
+hi PreProc ctermfg=2 cterm=bold
 hi Ignore ctermfg=0 cterm=none
 hi Error ctermfg=1 ctermbg=3 cterm=reverse
 hi Todo ctermfg=7 ctermbg=5 cterm=none
 hi Text ctermfg=3 cterm=none
-hi Type ctermfg=2 cterm=bold
+hi Type ctermfg=2 cterm=none
 hi LineNr ctermfg=0 cterm=bold
 hi MatchParen ctermfg=0 ctermbg=3 cterm=none
 
@@ -32,7 +32,7 @@ hi TabLineSel ctermfg=4 ctermbg=none cterm=none
 
 hi StatusLine ctermfg=7 ctermbg=8 cterm=none
 hi StatusLineNC ctermfg=0 ctermbg=0 cterm=bold
-hi VertSplit ctermfg=8 ctermbg=8 cterm=none
+hi VertSplit ctermfg=8 ctermbg=none cterm=none
 
 hi CursorLine cterm=none ctermbg=0
 hi CursorColumn cterm=none ctermbg=0
@@ -50,3 +50,6 @@ hi Menu ctermfg=1 ctermbg=2
 hi javaScriptValue ctermfg=3
 hi javaScriptParens ctermfg=2 cterm=bold
 
+" rubby
+hi rubyInterpolation ctermbg=8
+hi rubyInterpolationDelimiter ctermbg=8
