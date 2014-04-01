@@ -12,28 +12,28 @@
 
 " Normal mode
 let s:N1 = [ '#005f00' , '#afd700' , 8 , 2 ]
-let s:N2 = [ '#9e9e9e' , '#303030' , 2 , 8 ]
-let s:N3 = [ '#ffffff' , '#121212' , 2 , 8 ]
+let s:N2 = [ '#9e9e9e' , '#303030' , 8 , 2 ]
+let s:N3 = [ '#ffffff' , '#121212' , 8 , 2 ]
 
 " Insert mode
 let s:I1 = [ '#005f5f' , '#ffffff' , 8 , 7 ]
-let s:I2 = [ '#5fafd7' , '#0087af' , 7 , 8 ]
-let s:I3 = [ '#87d7ff' , '#005f87' , 7 , 8 ]
+let s:I2 = [ '#5fafd7' , '#0087af' , 8 , 7 ]
+let s:I3 = [ '#87d7ff' , '#005f87' , 8 , 7 ]
 
 " Visual mode
 let s:V1 = [ '#080808' , '#ffaf00' , 8 , 3 ]
-let s:V2 = [ '#080808' , '#ffaf00' , 3 , 8 ]
-let s:V3 = [ '#080808' , '#ffaf00' , 3 , 8 ]
+let s:V2 = [ '#080808' , '#ffaf00' , 8 , 3 ]
+let s:V3 = [ '#080808' , '#ffaf00' , 8 , 3 ]
 
 " Replace mode
 let s:R1 = [ '#ffffff' , '#d70000' , 8 , 4 ]
-let s:R2 = [ '#ffffff' , '#d70000' , 4 , 8 ]
-let s:R3 = [ '#ffffff' , '#d70000' , 4 , 8 ]
+let s:R2 = [ '#ffffff' , '#d70000' , 9 , 4 ]
+let s:R3 = [ '#ffffff' , '#d70000' , 8 , 4 ]
 
 " Inactive mode
-let s:IA1 = [ '#005f5f' , '#ffffff' , 6 , 8 ]
-let s:IA2 = [ '#5fafd7' , '#0087af' , 6 , 8 ]
-let s:IA3 = [ '#87d7ff' , '#005f87' , 6 , 8 ]
+let s:IA1 = [ '#005f5f' , '#ffffff' , 7 , 8 ]
+let s:IA2 = [ '#5fafd7' , '#0087af' , 7 , 8 ]
+let s:IA3 = [ '#87d7ff' , '#005f87' , 7 , 8 ]
 
 let g:airline#themes#potato#palette = {}
 let g:airline#themes#potato#palette.normal         = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
